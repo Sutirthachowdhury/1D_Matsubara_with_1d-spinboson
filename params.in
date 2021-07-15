@@ -1,0 +1,11 @@
+2000		   nstep
+1		       ntraj
+10             neq
+10             nmc
+1.0            beta
+1.0            mnuc
+1.0            k1
+0.0            c
+10.0           delta
+0.01    	   dt
+612025         ourseed

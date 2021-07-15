@@ -1,0 +1,15 @@
+ FUNCTION GRAN()
+      
+   IMPLICIT NONE
+   REAL(8),PARAMETER :: PI2=2.0*3.141592654
+   REAL(8) :: Z1,Z2,GRAN
+   
+   CALL RANDOM_NUMBER(z1)
+   CALL RANDOM_NUMBER(z2)
+   !write(*,*) "z1=",z1,"z2=",z2
+   
+   GRAN=dSQRT(-2.d0*dLOG(Z1))*dCOS(PI2*Z2)
+   
+   RETURN
+   
+ END FUNCTION GRAN
